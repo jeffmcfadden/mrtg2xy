@@ -61,7 +61,7 @@ data.each do |line|
     y = y * options[:factor].to_f
   end
   
-  puts "#{x}:#{y}"
+  puts "#{x} #{y}"
 end
 
 # day: 0, 604
