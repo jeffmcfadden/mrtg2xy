@@ -34,7 +34,7 @@ if file.nil?
   exit
 end
 
-puts options
+# puts options
 
 mrtg_data = File.open( file ).read
 
